@@ -8,14 +8,18 @@
 
 import UIKit
 import SkyFloatingLabelTextField
+import SwiftMessages
 
 class ProfileViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet weak var tableView: UITableView!
     
+    var avatarInt: Int! = 1
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        hideKeyboardWhenTappedAround()
 
         self.navigationItem.title = "Profile"
         
@@ -32,7 +36,9 @@ class ProfileViewController: UIViewController, UITableViewDelegate, UITableViewD
             cell.nameTextField.title = "Name"
             cell.nameTextField.text = "Min"
             cell.nameTextField.borderStyle = .none
-            cell.profileImage.setImage(UIImage(named: "AvatarIcon"), for: .normal) 
+            print("AvatarIcon"+String(avatarInt))
+            cell.profileImage.setImage(UIImage(named: ("AvatarIcon"+String(avatarInt))), for: .normal)
+            cell.profileImage.addTarget(self, action: #selector(avatarChange), for: UIControl.Event.touchUpInside)
             cell.selectionStyle = .none
             return cell
         } else {
@@ -47,6 +53,28 @@ class ProfileViewController: UIViewController, UITableViewDelegate, UITableViewD
             cell.selectionStyle = .none
             return cell
         }
+    }
+    
+    @objc func avatarChange(_ sender: Any) {
+        let view: AvatarDialogView = try! SwiftMessages.viewFromNib()
+        view.configureDropShadow()
+        
+        view.noAction = {
+            SwiftMessages.hide()
+        }
+        view.yesAction = {
+            self.avatarInt = view.avatarNum
+            self.tableView.reloadData()
+            SwiftMessages.hide()
+        }
+        
+        var config = SwiftMessages.defaultConfig
+        config.presentationContext = .window(windowLevel: UIWindow.Level.normal)
+        config.duration = .forever
+        config.presentationStyle = .center
+        config.dimMode = .gray(interactive: true)
+        view.initControl()
+        SwiftMessages.show(config: config, view: view)
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {

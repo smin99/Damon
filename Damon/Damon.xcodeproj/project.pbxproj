@@ -21,6 +21,17 @@
 		5653AEA421FDE4460043AC56 /* ConfirmDialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5653AEA221FDE4460043AC56 /* ConfirmDialogView.swift */; };
 		5653AEA521FDE4460043AC56 /* ConfirmDialogView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5653AEA321FDE4460043AC56 /* ConfirmDialogView.xib */; };
 		5653AEA721FDE87C0043AC56 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5653AEA621FDE87C0043AC56 /* String.swift */; };
+		5653AEAC21FDF0820043AC56 /* ReceiveImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5653AEA821FDF0810043AC56 /* ReceiveImageTableViewCell.swift */; };
+		5653AEAD21FDF0820043AC56 /* SendImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5653AEA921FDF0810043AC56 /* SendImageTableViewCell.swift */; };
+		5653AEAE21FDF0820043AC56 /* ReceiveMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5653AEAA21FDF0810043AC56 /* ReceiveMessageTableViewCell.swift */; };
+		5653AEAF21FDF0820043AC56 /* SendMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5653AEAB21FDF0820043AC56 /* SendMessageTableViewCell.swift */; };
+		5653AEB121FDF0CF0043AC56 /* ChatRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5653AEB021FDF0CF0043AC56 /* ChatRoom.swift */; };
+		5653AEB321FDF1CC0043AC56 /* EdgeInsetLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5653AEB221FDF1CB0043AC56 /* EdgeInsetLabel.swift */; };
+		5653AEB521FDF28B0043AC56 /* CommonUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5653AEB421FDF28B0043AC56 /* CommonUtil.swift */; };
+		5653AED321FDFEA80043AC56 /* HPGrowingTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5653AED021FDFEA70043AC56 /* HPGrowingTextView.m */; };
+		5653AED421FDFEA80043AC56 /* HPTextViewInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 5653AED221FDFEA80043AC56 /* HPTextViewInternal.m */; };
+		5653AEDD21FE2C640043AC56 /* AvatarDialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5653AEDB21FE2C640043AC56 /* AvatarDialogView.swift */; };
+		5653AEDE21FE2C640043AC56 /* AvatarDialogView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5653AEDC21FE2C640043AC56 /* AvatarDialogView.xib */; };
 		56C0E5F921FD4A1100256C95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C0E5F821FD4A1100256C95 /* AppDelegate.swift */; };
 		56C0E5FB21FD4A1100256C95 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C0E5FA21FD4A1100256C95 /* MainViewController.swift */; };
 		56C0E5FE21FD4A1100256C95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56C0E5FC21FD4A1100256C95 /* Main.storyboard */; };
@@ -44,6 +55,20 @@
 		5653AEA221FDE4460043AC56 /* ConfirmDialogView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmDialogView.swift; sourceTree = "<group>"; };
 		5653AEA321FDE4460043AC56 /* ConfirmDialogView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfirmDialogView.xib; sourceTree = "<group>"; };
 		5653AEA621FDE87C0043AC56 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		5653AEA821FDF0810043AC56 /* ReceiveImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiveImageTableViewCell.swift; sourceTree = "<group>"; };
+		5653AEA921FDF0810043AC56 /* SendImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendImageTableViewCell.swift; sourceTree = "<group>"; };
+		5653AEAA21FDF0810043AC56 /* ReceiveMessageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiveMessageTableViewCell.swift; sourceTree = "<group>"; };
+		5653AEAB21FDF0820043AC56 /* SendMessageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendMessageTableViewCell.swift; sourceTree = "<group>"; };
+		5653AEB021FDF0CF0043AC56 /* ChatRoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatRoom.swift; sourceTree = "<group>"; };
+		5653AEB221FDF1CB0043AC56 /* EdgeInsetLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdgeInsetLabel.swift; sourceTree = "<group>"; };
+		5653AEB421FDF28B0043AC56 /* CommonUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonUtil.swift; sourceTree = "<group>"; };
+		5653AECF21FDFEA70043AC56 /* HPTextViewInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPTextViewInternal.h; sourceTree = "<group>"; };
+		5653AED021FDFEA70043AC56 /* HPGrowingTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPGrowingTextView.m; sourceTree = "<group>"; };
+		5653AED121FDFEA70043AC56 /* HPGrowingTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPGrowingTextView.h; sourceTree = "<group>"; };
+		5653AED221FDFEA80043AC56 /* HPTextViewInternal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPTextViewInternal.m; sourceTree = "<group>"; };
+		5653AED621FDFF6D0043AC56 /* Damon-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Damon-Bridging-Header.h"; sourceTree = "<group>"; };
+		5653AEDB21FE2C640043AC56 /* AvatarDialogView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvatarDialogView.swift; sourceTree = "<group>"; };
+		5653AEDC21FE2C640043AC56 /* AvatarDialogView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AvatarDialogView.xib; sourceTree = "<group>"; };
 		56C0E5F521FD4A1100256C95 /* Damon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Damon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56C0E5F821FD4A1100256C95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56C0E5FA21FD4A1100256C95 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +108,8 @@
 			children = (
 				5653AEA221FDE4460043AC56 /* ConfirmDialogView.swift */,
 				5653AEA321FDE4460043AC56 /* ConfirmDialogView.xib */,
+				5653AEDB21FE2C640043AC56 /* AvatarDialogView.swift */,
+				5653AEDC21FE2C640043AC56 /* AvatarDialogView.xib */,
 			);
 			path = DialogView;
 			sourceTree = "<group>";
@@ -90,10 +117,34 @@
 		5653AE9B21FDCACC0043AC56 /* TableViewCell */ = {
 			isa = PBXGroup;
 			children = (
+				5653AEA821FDF0810043AC56 /* ReceiveImageTableViewCell.swift */,
+				5653AEAA21FDF0810043AC56 /* ReceiveMessageTableViewCell.swift */,
+				5653AEA921FDF0810043AC56 /* SendImageTableViewCell.swift */,
+				5653AEAB21FDF0820043AC56 /* SendMessageTableViewCell.swift */,
 				5653AE9C21FDCAF80043AC56 /* ProfilePictureTableViewCell.swift */,
 				5653AE9E21FDCB020043AC56 /* ProfileTableViewCell.swift */,
 			);
 			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		5653AEB621FDFE200043AC56 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				5653AEB921FDFE370043AC56 /* GrowingTextView */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		5653AEB921FDFE370043AC56 /* GrowingTextView */ = {
+			isa = PBXGroup;
+			children = (
+				5653AED121FDFEA70043AC56 /* HPGrowingTextView.h */,
+				5653AED021FDFEA70043AC56 /* HPGrowingTextView.m */,
+				5653AECF21FDFEA70043AC56 /* HPTextViewInternal.h */,
+				5653AED221FDFEA80043AC56 /* HPTextViewInternal.m */,
+				5653AED621FDFF6D0043AC56 /* Damon-Bridging-Header.h */,
+			);
+			path = GrowingTextView;
 			sourceTree = "<group>";
 		};
 		56C0E5EC21FD4A1100256C95 = {
@@ -133,9 +184,11 @@
 		56C0E61221FD4C7300256C95 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				5653AEB621FDFE200043AC56 /* Control */,
 				5653AE8F21FD9B2B0043AC56 /* Extension */,
 				56C0E61421FD4C8D00256C95 /* Data */,
 				5653AE8D21FD8EB60043AC56 /* GlobalConst.swift */,
+				5653AEB421FDF28B0043AC56 /* CommonUtil.swift */,
 				5653AE9921FDC9CB0043AC56 /* ControlUtil.swift */,
 			);
 			path = Common;
@@ -144,6 +197,7 @@
 		56C0E61321FD4C7900256C95 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				5653AEB221FDF1CB0043AC56 /* EdgeInsetLabel.swift */,
 				5653AE9821FDC56A0043AC56 /* DialogView */,
 				5653AE9B21FDCACC0043AC56 /* TableViewCell */,
 				56C0E61521FD4C9500256C95 /* ViewController */,
@@ -154,6 +208,7 @@
 		56C0E61421FD4C8D00256C95 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				5653AEB021FDF0CF0043AC56 /* ChatRoom.swift */,
 				5653AE8B21FD7F040043AC56 /* User.swift */,
 			);
 			path = Data;
@@ -222,6 +277,7 @@
 				TargetAttributes = {
 					56C0E5F421FD4A1100256C95 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -252,6 +308,7 @@
 				56C0E60321FD4A1200256C95 /* LaunchScreen.storyboard in Resources */,
 				5653AEA521FDE4460043AC56 /* ConfirmDialogView.xib in Resources */,
 				56C0E60C21FD4A8200256C95 /* Localizable.strings in Resources */,
+				5653AEDE21FE2C640043AC56 /* AvatarDialogView.xib in Resources */,
 				56C0E61121FD4ABE00256C95 /* GoogleService-Info.plist in Resources */,
 				56C0E5FE21FD4A1100256C95 /* Main.storyboard in Resources */,
 				5653AE9721FDC2520043AC56 /* Assets.xcassets in Resources */,
@@ -348,18 +405,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5653AEB121FDF0CF0043AC56 /* ChatRoom.swift in Sources */,
 				5653AE8821FD7EEF0043AC56 /* ChattingViewController.swift in Sources */,
 				5653AEA721FDE87C0043AC56 /* String.swift in Sources */,
+				5653AEB321FDF1CC0043AC56 /* EdgeInsetLabel.swift in Sources */,
 				56C0E5FB21FD4A1100256C95 /* MainViewController.swift in Sources */,
 				5653AE8C21FD7F040043AC56 /* User.swift in Sources */,
+				5653AED421FDFEA80043AC56 /* HPTextViewInternal.m in Sources */,
+				5653AEDD21FE2C640043AC56 /* AvatarDialogView.swift in Sources */,
 				5653AEA421FDE4460043AC56 /* ConfirmDialogView.swift in Sources */,
+				5653AEAE21FDF0820043AC56 /* ReceiveMessageTableViewCell.swift in Sources */,
 				5653AEA121FDDE380043AC56 /* UIViewController.swift in Sources */,
+				5653AED321FDFEA80043AC56 /* HPGrowingTextView.m in Sources */,
 				5653AE9F21FDCB020043AC56 /* ProfileTableViewCell.swift in Sources */,
+				5653AEAC21FDF0820043AC56 /* ReceiveImageTableViewCell.swift in Sources */,
 				5653AE9A21FDC9CB0043AC56 /* ControlUtil.swift in Sources */,
+				5653AEAF21FDF0820043AC56 /* SendMessageTableViewCell.swift in Sources */,
 				5653AE8A21FD7EF80043AC56 /* ProfileViewController.swift in Sources */,
 				5653AE9D21FDCAF80043AC56 /* ProfilePictureTableViewCell.swift in Sources */,
 				5653AE8621FD7EE00043AC56 /* MapViewController.swift in Sources */,
 				5653AE8E21FD8EB60043AC56 /* GlobalConst.swift in Sources */,
+				5653AEAD21FDF0820043AC56 /* SendImageTableViewCell.swift in Sources */,
+				5653AEB521FDF28B0043AC56 /* CommonUtil.swift in Sources */,
 				56C0E5F921FD4A1100256C95 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,6 +585,7 @@
 			baseConfigurationReference = F850A189DE62AE31BE822C69 /* Pods-Damon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N5CD2AU49J;
 				INFOPLIST_FILE = Damon/Info.plist;
@@ -527,6 +595,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.minhwang.Damon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Damon/Common/Control/GrowingTextView/Damon-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -537,6 +607,7 @@
 			baseConfigurationReference = ADBE91E380C070C65590D790 /* Pods-Damon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N5CD2AU49J;
 				INFOPLIST_FILE = Damon/Info.plist;
@@ -546,6 +617,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.minhwang.Damon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Damon/Common/Control/GrowingTextView/Damon-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

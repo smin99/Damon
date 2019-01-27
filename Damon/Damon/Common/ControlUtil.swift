@@ -61,4 +61,22 @@ class ControlUtil {
         textField.lineHeight = 1.0 // bottom line height in points
         textField.selectedLineHeight = 2.0
     }
+    
+    // 테마 색상 설정 - 네비게이션 바, 상태바, 탭바 의 tintColor, backgroundColor 설정
+    static func setThemeColor(tintColor: UIColor = .red, barTintColor: UIColor = .white) {
+        // NavigatationBar 초기화
+        UINavigationBar.appearance().barTintColor = tintColor
+        UINavigationBar.appearance().tintColor = barTintColor
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor: barTintColor]
+        
+        // statusBar 초기화
+        let statusBar: UIView = UIApplication.shared.value(forKey: "statusBar") as! UIView
+        if statusBar.responds(to: #selector(setter: UIView.backgroundColor)) {
+            statusBar.backgroundColor = tintColor
+        }
+        
+        // TabBar tintColor 설정
+        UITabBar.appearance().tintColor = tintColor
+        UITabBar.appearance().barTintColor = barTintColor
+    }
 }
