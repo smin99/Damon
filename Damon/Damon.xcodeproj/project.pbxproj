@@ -13,10 +13,17 @@
 		5653AE8A21FD7EF80043AC56 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5653AE8921FD7EF80043AC56 /* ProfileViewController.swift */; };
 		5653AE8C21FD7F040043AC56 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5653AE8B21FD7F040043AC56 /* User.swift */; };
 		5653AE8E21FD8EB60043AC56 /* GlobalConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5653AE8D21FD8EB60043AC56 /* GlobalConst.swift */; };
+		5653AE9721FDC2520043AC56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5653AE9621FDC2520043AC56 /* Assets.xcassets */; };
+		5653AE9A21FDC9CB0043AC56 /* ControlUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5653AE9921FDC9CB0043AC56 /* ControlUtil.swift */; };
+		5653AE9D21FDCAF80043AC56 /* ProfilePictureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5653AE9C21FDCAF80043AC56 /* ProfilePictureTableViewCell.swift */; };
+		5653AE9F21FDCB020043AC56 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5653AE9E21FDCB020043AC56 /* ProfileTableViewCell.swift */; };
+		5653AEA121FDDE380043AC56 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5653AEA021FDDE370043AC56 /* UIViewController.swift */; };
+		5653AEA421FDE4460043AC56 /* ConfirmDialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5653AEA221FDE4460043AC56 /* ConfirmDialogView.swift */; };
+		5653AEA521FDE4460043AC56 /* ConfirmDialogView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5653AEA321FDE4460043AC56 /* ConfirmDialogView.xib */; };
+		5653AEA721FDE87C0043AC56 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5653AEA621FDE87C0043AC56 /* String.swift */; };
 		56C0E5F921FD4A1100256C95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C0E5F821FD4A1100256C95 /* AppDelegate.swift */; };
 		56C0E5FB21FD4A1100256C95 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C0E5FA21FD4A1100256C95 /* MainViewController.swift */; };
 		56C0E5FE21FD4A1100256C95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56C0E5FC21FD4A1100256C95 /* Main.storyboard */; };
-		56C0E60021FD4A1200256C95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56C0E5FF21FD4A1200256C95 /* Assets.xcassets */; };
 		56C0E60321FD4A1200256C95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56C0E60121FD4A1200256C95 /* LaunchScreen.storyboard */; };
 		56C0E60C21FD4A8200256C95 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56C0E60E21FD4A8200256C95 /* Localizable.strings */; };
 		56C0E61121FD4ABE00256C95 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56C0E61021FD4ABD00256C95 /* GoogleService-Info.plist */; };
@@ -29,11 +36,18 @@
 		5653AE8921FD7EF80043AC56 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		5653AE8B21FD7F040043AC56 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		5653AE8D21FD8EB60043AC56 /* GlobalConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConst.swift; sourceTree = "<group>"; };
+		5653AE9621FDC2520043AC56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5653AE9921FDC9CB0043AC56 /* ControlUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlUtil.swift; sourceTree = "<group>"; };
+		5653AE9C21FDCAF80043AC56 /* ProfilePictureTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePictureTableViewCell.swift; sourceTree = "<group>"; };
+		5653AE9E21FDCB020043AC56 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		5653AEA021FDDE370043AC56 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		5653AEA221FDE4460043AC56 /* ConfirmDialogView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmDialogView.swift; sourceTree = "<group>"; };
+		5653AEA321FDE4460043AC56 /* ConfirmDialogView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfirmDialogView.xib; sourceTree = "<group>"; };
+		5653AEA621FDE87C0043AC56 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		56C0E5F521FD4A1100256C95 /* Damon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Damon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56C0E5F821FD4A1100256C95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56C0E5FA21FD4A1100256C95 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		56C0E5FD21FD4A1100256C95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		56C0E5FF21FD4A1200256C95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56C0E60221FD4A1200256C95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		56C0E60421FD4A1200256C95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56C0E60D21FD4A8200256C95 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -58,8 +72,28 @@
 		5653AE8F21FD9B2B0043AC56 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				5653AEA021FDDE370043AC56 /* UIViewController.swift */,
+				5653AEA621FDE87C0043AC56 /* String.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		5653AE9821FDC56A0043AC56 /* DialogView */ = {
+			isa = PBXGroup;
+			children = (
+				5653AEA221FDE4460043AC56 /* ConfirmDialogView.swift */,
+				5653AEA321FDE4460043AC56 /* ConfirmDialogView.xib */,
+			);
+			path = DialogView;
+			sourceTree = "<group>";
+		};
+		5653AE9B21FDCACC0043AC56 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				5653AE9C21FDCAF80043AC56 /* ProfilePictureTableViewCell.swift */,
+				5653AE9E21FDCB020043AC56 /* ProfileTableViewCell.swift */,
+			);
+			path = TableViewCell;
 			sourceTree = "<group>";
 		};
 		56C0E5EC21FD4A1100256C95 = {
@@ -87,8 +121,8 @@
 				56C0E61321FD4C7900256C95 /* Main */,
 				56C0E5F821FD4A1100256C95 /* AppDelegate.swift */,
 				56C0E5FC21FD4A1100256C95 /* Main.storyboard */,
-				56C0E5FF21FD4A1200256C95 /* Assets.xcassets */,
 				56C0E60121FD4A1200256C95 /* LaunchScreen.storyboard */,
+				5653AE9621FDC2520043AC56 /* Assets.xcassets */,
 				56C0E61021FD4ABD00256C95 /* GoogleService-Info.plist */,
 				56C0E60421FD4A1200256C95 /* Info.plist */,
 				56C0E60E21FD4A8200256C95 /* Localizable.strings */,
@@ -102,6 +136,7 @@
 				5653AE8F21FD9B2B0043AC56 /* Extension */,
 				56C0E61421FD4C8D00256C95 /* Data */,
 				5653AE8D21FD8EB60043AC56 /* GlobalConst.swift */,
+				5653AE9921FDC9CB0043AC56 /* ControlUtil.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -109,6 +144,8 @@
 		56C0E61321FD4C7900256C95 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				5653AE9821FDC56A0043AC56 /* DialogView */,
+				5653AE9B21FDCACC0043AC56 /* TableViewCell */,
 				56C0E61521FD4C9500256C95 /* ViewController */,
 			);
 			path = Main;
@@ -213,10 +250,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				56C0E60321FD4A1200256C95 /* LaunchScreen.storyboard in Resources */,
+				5653AEA521FDE4460043AC56 /* ConfirmDialogView.xib in Resources */,
 				56C0E60C21FD4A8200256C95 /* Localizable.strings in Resources */,
 				56C0E61121FD4ABE00256C95 /* GoogleService-Info.plist in Resources */,
-				56C0E60021FD4A1200256C95 /* Assets.xcassets in Resources */,
 				56C0E5FE21FD4A1100256C95 /* Main.storyboard in Resources */,
+				5653AE9721FDC2520043AC56 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +316,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Damon/Pods-Damon-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DLRadioButton/DLRadioButton.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
 				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
@@ -289,6 +328,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DLRadioButton.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
@@ -309,9 +349,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				5653AE8821FD7EEF0043AC56 /* ChattingViewController.swift in Sources */,
+				5653AEA721FDE87C0043AC56 /* String.swift in Sources */,
 				56C0E5FB21FD4A1100256C95 /* MainViewController.swift in Sources */,
 				5653AE8C21FD7F040043AC56 /* User.swift in Sources */,
+				5653AEA421FDE4460043AC56 /* ConfirmDialogView.swift in Sources */,
+				5653AEA121FDDE380043AC56 /* UIViewController.swift in Sources */,
+				5653AE9F21FDCB020043AC56 /* ProfileTableViewCell.swift in Sources */,
+				5653AE9A21FDC9CB0043AC56 /* ControlUtil.swift in Sources */,
 				5653AE8A21FD7EF80043AC56 /* ProfileViewController.swift in Sources */,
+				5653AE9D21FDCAF80043AC56 /* ProfilePictureTableViewCell.swift in Sources */,
 				5653AE8621FD7EE00043AC56 /* MapViewController.swift in Sources */,
 				5653AE8E21FD8EB60043AC56 /* GlobalConst.swift in Sources */,
 				56C0E5F921FD4A1100256C95 /* AppDelegate.swift in Sources */,

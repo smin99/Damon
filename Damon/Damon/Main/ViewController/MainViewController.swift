@@ -29,6 +29,7 @@ class MainViewController: UIViewController {
         fitnessImage.addTarget(self, action: #selector(fitnessPressed), for: UIControl.Event.touchUpInside)
         
         profileButton = UIBarButtonItem(image: UIImage(named: "ProfileIcon"), style: .plain, target: self, action: #selector(profilePressed))
+        
         self.navigationItem.rightBarButtonItem = profileButton
     }
 
@@ -48,6 +49,5 @@ class MainViewController: UIViewController {
         let viewController = storyboard?.instantiateViewController(withIdentifier: "ProfileViewController")
         self.navigationController?.pushViewController(viewController!, animated: true)
     }
-    
 }
 

@@ -5,3 +5,21 @@
   Created by HwangSeungmin on 1/26/19.
   Copyright © 2019 Min. All rights reserved.
 */
+
+
+// Common Strings
+"OK"="OK";
+"Cancel"="Cancel";
+"Yes"="Yes";
+"No"="No";
+"Close"="Close";
+"Delete"="Delete";
+
+// Confirm Dialog View
+"Connect with "="Connect with ";
+"?"="?";
+"Male"="Male";
+"Female"="Female";
+"Name: "="Name: ";
+"\nSex: "="\nSex: ";
+"\nAge: "="\nAge: ";
